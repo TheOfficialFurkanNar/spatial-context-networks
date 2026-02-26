@@ -10,7 +10,7 @@ Usage:
 import argparse
 import torch
 import json
-from spatial_context_networks import SpatialContextNetwork
+from model import SpatialContextNetwork
 
 
 PATTERN_LABELS = ["Mathematics", "Language", "Vision", "Reasoning"]
