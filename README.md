@@ -17,7 +17,7 @@ Spatial Context Networks (SCN) is a novel neural architecture that treats neuron
 
 This repository contains the reference PyTorch implementation accompanying the paper.
 
-📄 **Paper:** [https://doi.org/10.5281/zenodo.18599303](https://doi.org/10.5281/zenodo.18599303)
+ **Paper:** [https://doi.org/10.5281/zenodo.18599303](https://doi.org/10.5281/zenodo.18599303)
 
 ### Key Ideas
 
@@ -143,6 +143,15 @@ python inference.py --checkpoint scn_model.pt --batch_size 8
 | Mean context score | 0.444 |
 | Total parameters | ~500 |
 | Hardware | Consumer gaming laptop (RTX) |
+
+---
+
+# Acknowledgements
+---
+
+This code implementation is not the original code I've written, but rather a reference based off of the paper I have released.
+While creating the reference code the author has taken help from AI tools for a better code quality, and has helped for a better
+documentation for the Github/HF repository.
 
 ---
 
