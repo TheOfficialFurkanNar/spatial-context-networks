@@ -4,13 +4,11 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="spatial-context-networks",
+    name="scn",
     version="0.1.0",
     author="Furkan Nar",
     author_email="furkannar168@hotmail.com",
     description="Geometric Semantic Routing in Neural Architectures",
-    long_description=long_description,
-    long_description_content_type="text/markdown",
     url="https://github.com/TheOfficialFurkanNar/spatial-context-networks",
     packages=find_packages(),
     classifiers=[
