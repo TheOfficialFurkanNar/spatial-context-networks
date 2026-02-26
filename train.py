@@ -11,7 +11,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader, TensorDataset
 
-from spatial_context_networks import SpatialContextNetwork
+from model import SpatialContextNetwork
 
 
 def make_synthetic_dataset(n_samples=256, input_dim=10, output_dim=4, seed=42):
