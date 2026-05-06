@@ -74,7 +74,7 @@ pip install -e .
 
 ```python
 import torch
-from model.py import SpatialContextNetwork
+from model import SpatialContextNetwork
 
 # Instantiate the model
 model = SpatialContextNetwork(
